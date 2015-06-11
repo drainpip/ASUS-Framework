@@ -29,21 +29,21 @@ http://www.google.com/design/spec/layout/adaptive-ui.html#adaptive-ui-breakpoint
 
 These were adapted to em values for our use, plus we have added a few simple ranges between and above those listed by Google
 
-Also, the below variables are mostly to be used in specific cases for positioning elements, not yet basing the entire grid/visibility system from this
+Also, the below variables are mostly to be used in specific cases for positioning elements, etc., not yet basing the entire grid/visibility system from this
 */
-$mobile-small: "#{$portrait} and (min-width: 0) and (max-width: 360px)" !default;
-$mobile-large: "#{$portrait} and (min-width: 361px)" !default;
-$mobile-small-landscape: "#{$landscape} and (min-width: 0) and (max-width: 480px)" !default;
-$mobile-large-landscape: "#{$landscape} and (min-width: 481px)" !default;
+$mobile-small: "#{$portrait} and (min-width: 0) and (max-width: 22em)" !default;
+$mobile-large: "#{$portrait} and (min-width: 22.063em)" !default;
+$mobile-small-landscape: "#{$landscape} and (min-width: 0) and (max-width: 30em)" !default;
+$mobile-large-landscape: "#{$landscape} and (min-width: 30.063em)" !default;
 
-$tablet-small: "#{$portrait} and (min-width: 600px)" !default;
-$tablet-large: "#{$portrait} and (min-width: 601px) and (max-width: 840px)" !default;
-$tablet-small-landscape: "#{$landscape} and (min-width: 600px) and (max-width: 960px)" !default;
-$tablet-large-landscape: "#{$landscape} and (min-width: 961px)" !default;
+$tablet-small: "#{$portrait} and (min-width: 37em)" !default;
+$tablet-large: "#{$portrait} and (min-width: 37.063em) and (max-width: 52em)" !default;
+$tablet-small-landscape: "#{$landscape} and (min-width: 37em) and (max-width: 60em)" !default;
+$tablet-large-landscape: "#{$landscape} and (min-width: 60.063em)" !default;
 
-$desktop-x-small: "#{$four-thirds} and (min-width: 0) and (max-width: 480px)" !default;
-$desktop-small: "#{$four-thirds} and (min-width: 481px) and (max-width: 840px)" !default;
-$desktop-medium: "#{$four-thirds} and (min-width: 841px) and (max-width: 1280px)" !default;
-$desktop-large: "#{$screen} and (min-width: 1281px) and (max-width: 1600px)" !default;
-$desktop-x-large: "#{$screen} and (min-width: 1601px) and (max-width: 1920px)" !default;
-$desktop-gigantic: "#{$screen} and (min-width: 1921px)" !default;
+$desktop-x-small: "#{$four-thirds} and (min-width: 0) and (max-width: 30em)" !default;
+$desktop-small: "#{$four-thirds} and (min-width: 30.063em) and (max-width: 52em)" !default;
+$desktop-medium: "#{$four-thirds} and (min-width: 52.063em) and (max-width: 80em)" !default;
+$desktop-large: "#{$screen} and (min-width: 80.063em) and (max-width: 100em)" !default;
+$desktop-x-large: "#{$screen} and (min-width: 100.063em) and (max-width: 120em)" !default;
+$desktop-gigantic: "#{$screen} and (min-width: 120.063em)" !default;
