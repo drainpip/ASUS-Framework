@@ -16,6 +16,16 @@ Split up into logical sections, the smaller and simpler the better.
 */
 
 /*
+Material Design Adaptive Breakpoints
+
+http://www.google.com/design/spec/layout/adaptive-ui.html#adaptive-ui-breakpoints
+
+These were adapted to em values for our use, plus we have added a few simple ranges between and above those listed by Google
+
+Also, the below variables are mostly to be used in specific cases for positioning elements, not yet basing the entire grid/visibility system from this
+*/
+
+/*
 Tools store all programic Sass functionality.
 If your tooling is simplistic enough, you can do something like:
   tools.mixins
