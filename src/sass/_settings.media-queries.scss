@@ -43,3 +43,29 @@ $xlarge-only: "#{$screen} and (min-width:#{lower-bound($xlarge-range)}) and (max
 
 $xxlarge-up: "#{$screen} and (min-width:#{lower-bound($xxlarge-range)})" !default;
 $xxlarge-only: "#{$screen} and (min-width:#{lower-bound($xxlarge-range)}) and (max-width:#{upper-bound($xxlarge-range)})" !default;
+
+/*
+Material Design Adaptive Breakpoints
+
+http://www.google.com/design/spec/layout/adaptive-ui.html#adaptive-ui-breakpoints
+
+These were adapted to em values for our use, plus we have added a few simple ranges between and above those listed by Google
+
+Also, the below variables are mostly to be used in specific cases for positioning elements, not yet basing the entire grid/visibility system from this
+*/
+$mobile-small: "#{$portrait} and (min-width: 0) and (max-width: 360px)" !default;
+$mobile-large: "#{$portrait} and (min-width: 361px)" !default;
+$mobile-small-landscape: "#{$landscape} and (min-width: 0) and (max-width: 480px)" !default;
+$mobile-large-landscape: "#{$landscape} and (min-width: 481px)" !default;
+
+$tablet-small: "#{$portrait} and (min-width: 600px)" !default;
+$tablet-large: "#{$portrait} and (min-width: 601px) and (max-width: 840px)" !default;
+$tablet-small-landscape: "#{$landscape} and (min-width: 600px) and (max-width: 960px)" !default;
+$tablet-large-landscape: "#{$landscape} and (min-width: 961px)" !default;
+
+$desktop-x-small: "#{$four-thirds} and (min-width: 0) and (max-width: 480px)" !default;
+$desktop-small: "#{$four-thirds} and (min-width: 481px) and (max-width: 840px)" !default;
+$desktop-medium: "#{$four-thirds} and (min-width: 841px) and (max-width: 1280px)" !default;
+$desktop-large: "#{$screen} and (min-width: 1281px) and (max-width: 1600px)" !default;
+$desktop-x-large: "#{$screen} and (min-width: 1601px) and (max-width: 1920px)" !default;
+$desktop-gigantic: "#{$screen} and (min-width: 1921px)" !default;
