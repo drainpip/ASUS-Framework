@@ -550,20 +550,20 @@ a {
 }
 
 a:link {
-	color: #0074d9;
+	color: #0074D9;
 }
 
 a:visited {
-	color: #b10dc9;
+	color: #B10DC9;
 }
 
 a:hover {
-	color: #7fdbff;
+	color: #7FDBFF;
 	text-decoration: underline;
 }
 
 a:active {
-	color: #ff851b;
+	color: #FF851B;
 }
 
 ul,
@@ -593,17 +593,18 @@ html {
 }
 
 body {
-	position: relative;
-	background: white;
-	color: #111111;
+	background-color: #fff;
+	color: #111;
+	font-family: sans-serif;
 	font-size: 100%;
+	font-weight: 400;
 	line-height: 1.4;
 }
 
 blockquote {
 	padding: 0.5em 1em;
 	margin: 1em 0;
-	border-left: 5px solid #dddddd;
+	border-left: 5px solid #ddd;
 }
 
 blockquote p:last-child,
@@ -626,23 +627,20 @@ h2,
 h3,
 h4,
 h5,
-h6,
-strong,
-dt {
-	font-weight: 700;
-}
-
-h1,
-h2,
-h3,
-h4,
-h5,
 h6 {
 	margin: 0.5em 0;
+	font-family: sans-serif;
+	font-weight: 700;
+	text-transform: uppercase;
 }
 
 p {
 	margin: 0 0 0.5em;
+}
+
+strong,
+dt {
+	font-weight: 700;
 }
 
 h1 {
@@ -792,8 +790,8 @@ These get much more explicitly named: eg. products-list, etc.
 
 .alert-success {
 	background-color: #bcf0c2;
-	border-color: #3d9970;
-	color: #3d9970;
+	border-color: #3D9970;
+	color: #3D9970;
 }
 
 .alert-success hr {
@@ -806,8 +804,8 @@ These get much more explicitly named: eg. products-list, etc.
 
 .alert-info {
 	background-color: #ccf1ff;
-	border-color: #0074d9;
-	color: #0074d9;
+	border-color: #0074D9;
+	color: #0074D9;
 }
 
 .alert-info hr {
@@ -819,13 +817,13 @@ These get much more explicitly named: eg. products-list, etc.
 }
 
 .alert-warning {
-	background-color: #fff4b3;
-	border-color: #ff851b;
-	color: #ff851b;
+	background-color: #fff5b3;
+	border-color: #FF851B;
+	color: #FF851B;
 }
 
 .alert-warning hr {
-	border-top-color: #ff7701;
+	border-top-color: #ff7702;
 }
 
 .alert-warning .alert-link {
@@ -834,7 +832,7 @@ These get much more explicitly named: eg. products-list, etc.
 
 .alert-danger {
 	background-color: #ffd2cf;
-	border-color: #ff4136;
+	border-color: #FF4136;
 	color: #e90d00;
 }
 
@@ -843,11 +841,11 @@ These get much more explicitly named: eg. products-list, etc.
 }
 
 .alert-danger .alert-link {
-	color: #b50a00;
+	color: #b60a00;
 }
 
 .button-info {
-	background: #7fdbff;
+	background: #7FDBFF;
 	color: #0080b2 !important;
 	border: 1px solid #19beff;
 }
@@ -861,7 +859,7 @@ These get much more explicitly named: eg. products-list, etc.
 }
 
 .button-success {
-	background: #2ecc40;
+	background: #2ECC40;
 	color: #08260c !important;
 	border: 1px solid #1b7926;
 }
@@ -875,7 +873,7 @@ These get much more explicitly named: eg. products-list, etc.
 }
 
 .button-warning {
-	background: #ffdc00;
+	background: #FFDC00;
 	color: #332c00 !important;
 	border: 1px solid #998400;
 }
@@ -889,7 +887,7 @@ These get much more explicitly named: eg. products-list, etc.
 }
 
 .button-danger {
-	background: #ff4136;
+	background: #FF4136;
 	color: #690600 !important;
 	border: 1px solid #cf0b00;
 }
@@ -903,13 +901,13 @@ These get much more explicitly named: eg. products-list, etc.
 }
 
 .button {
-	background: #aaaaaa;
+	background: #aaa;
 	color: #444444 !important;
 	border: 1px solid #777777;
 }
 
 .button:hover {
-	background: #909090;
+	background: #919191;
 }
 
 .button:active {
@@ -967,7 +965,7 @@ These get much more explicitly named: eg. products-list, etc.
 }
 
 .table .table {
-	background-color: white;
+	background-color: #fff;
 }
 
 .table-condensed > thead > tr > th,
