@@ -10,6 +10,8 @@ $small-only-portrait: "#{$portrait} and (max-width: 40em)" !default;
 
 $medium-up: "#{$screen} and (min-width: 40.063em)" !default;
 $medium-only: "#{$screen} and (min-width: 40.063em) and (max-width: 64em)" !default;
+$medium-only-portrait: "#{$portrait} and (min-width: 40.063em) and (max-width: 64em)" !default;
+$medium-only-landscape: "#{$landscape} and (min-width: 40.063em) and (max-width: 64em)" !default;
 $medium-down: "#{$screen} and (max-width: 63em)" !default;
 $medium-down-portrait: "#{$portrait} and (max-width: 64em)" !default;
 
