@@ -3,9 +3,10 @@ html {
 }
 
 body {
-  position: relative;
-  background: $base-body-bg;
+  background-color: $base-body-bg;
   color: $base-text-color;
+  font-family: $body-font-family;
   font-size: 100%;
+  font-weight: $body-font-weight;
   line-height: $base-line-height;
 }
